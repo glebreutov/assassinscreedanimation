@@ -24,8 +24,9 @@ object Integration extends js.JSApp {
     val canvas = dom.document.createElement("canvas").asInstanceOf[Canvas]
     val ctx = canvas.getContext("2d").asInstanceOf[dom.CanvasRenderingContext2D]
 
-    canvas.height = (0.95 * dom.window.innerHeight).toInt
-    canvas.width = canvas.height
+    val size = 0.95 * Math.min(dom.window.innerHeight, dom.window.innerWidth)
+    canvas.height = size.toInt
+    canvas.width = size.toInt
     dom.document.body.appendChild(canvas)
 
     val origin = Vector(canvas.height / 2, canvas.height / 2)
@@ -158,7 +159,6 @@ object Integration extends js.JSApp {
 
     //dom.window.requestAnimationFrame(drawMe2)
 
-    val button = dom.document.createElement("button").asInstanceOf[Button]
 
 
 
@@ -171,9 +171,6 @@ object Integration extends js.JSApp {
       dom.window.requestAnimationFrame((_) => drawMeStep(state.next))
     }
     drawMeStep(SceneState(0))
-
-
-    dom.document.body.appendChild(button)
 
   }
 }
