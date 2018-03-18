@@ -113,7 +113,7 @@ object Integration extends js.JSApp {
         val gap = boldness2 / 2
         val dots = lineToRect(from, to, boldness1, angle)
         //change it to relative
-        if(from.length(to) > 30){
+        if(from.length(to) > sideLen / 5){
           drawFigure(dots)
         }
 

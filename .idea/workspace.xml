@@ -3,8 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="a96d2e0e-ff5b-459e-ae9b-42e668f35001" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/animation/Integration.scala" afterPath="$PROJECT_DIR$/src/main/scala/animation/Integration.scala" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/animation/Integration$$anonfun$drawMeStep$1$1.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/animation/Integration$$anonfun$drawMeStep$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/animation/Integration$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/animation/Integration$.class" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/animation/Integration$.sjsir" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/animation/Integration$.sjsir" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/jsanimation-opt.js" afterPath="$PROJECT_DIR$/target/scala-2.12/jsanimation-opt.js" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/jsanimation-opt.js.map" afterPath="$PROJECT_DIR$/target/scala-2.12/jsanimation-opt.js.map" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/fullOptJS/$global/streams/in-cache" afterPath="$PROJECT_DIR$/target/streams/compile/fullOptJS/$global/streams/in-cache" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/fullOptJS/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/fullOptJS/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.12" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -67,8 +77,8 @@
       <file leaf-file-name="Integration.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/animation/Integration.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="169" column="12" lean-forward="false" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="12" />
+            <state relative-caret-position="300">
+              <caret line="115" column="40" lean-forward="false" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -357,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521403162130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="minor fixes">
+      <created>1521403671343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521403671343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -401,13 +418,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readme md" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme md" />
+    <MESSAGE value="minor fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -419,18 +445,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/animation/Integration.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="169" column="12" lean-forward="false" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="12" />
+        <state relative-caret-position="300">
+          <caret line="115" column="40" lean-forward="false" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
           <folding />
         </state>
       </provider>
