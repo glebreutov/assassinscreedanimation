@@ -1,9 +1,3 @@
 # Assassins's Creed Animation
 
-Assassins's Creed Animation implemented on Scala.js [live dome here]
-Original tutorial in Javascript :
-[how-to-make-a-simple-html5-canvas-game](http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/).
-
-Play the [live demo](http://vmunier.github.io/scalajs-simple-canvas-game/).
-
-Have a look at [Sjs-Simple-HTML5-canvas-game](https://github.com/amsterdam-scala/Sjs-Simple-HTML5-canvas-game) by [SeriousSoftware](https://github.com/SeriousSoftware) for a different version of this game, showcasing the use of several technologies.
+Assassins's Creed Animation implemented on Scala.js [live dome here](http://htmlpreview.github.io/?https://github.com/glebreutov/assassinscreedanimation/blob/master/index.html)
